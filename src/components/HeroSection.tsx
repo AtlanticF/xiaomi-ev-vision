@@ -13,7 +13,7 @@ const slides = [
     theme: "blue",
     accentColor: "#277af7",
     bg: "linear-gradient(135deg, #0a0a1a 0%, #1a1a2e 40%, #16213e 70%, #0f3460 100%)",
-    carImage: "https://s1.xiaomiev.com/activity-outer-assets/0328/images/su7/home.jpg",
+    carImage: "https://images.unsplash.com/photo-1555215695-3004980ad54e?w=1920&q=85&auto=format&fit=crop",
   },
   {
     id: "yu7",
@@ -23,7 +23,7 @@ const slides = [
     theme: "green",
     accentColor: "#00975d",
     bg: "linear-gradient(135deg, #0a1a10 0%, #0d2818 40%, #0f3520 70%, #1a4a2a 100%)",
-    carImage: "https://s1.xiaomiev.com/activity-outer-assets/0328/images/yu7/home.jpg",
+    carImage: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=1920&q=85&auto=format&fit=crop",
   },
   {
     id: "ultra",
@@ -33,7 +33,7 @@ const slides = [
     theme: "yellow",
     accentColor: "#FFD145",
     bg: "linear-gradient(135deg, #0a0800 0%, #1a1500 40%, #251e00 70%, #3a2f00 100%)",
-    carImage: "https://s1.xiaomiev.com/activity-outer-assets/0328/images/Ultra_U/home.jpg",
+    carImage: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=1920&q=85&auto=format&fit=crop",
   },
 ];
 

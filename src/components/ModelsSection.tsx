@@ -14,7 +14,7 @@ const models = [
     darkText: false,
     bg: "#0f0f18",
     tagline: "优雅运动，豪华纯电轿跑",
-    image: "https://s1.xiaomiev.com/activity-outer-assets/0328/images/su7/home.jpg",
+    image: "https://images.unsplash.com/photo-1555215695-3004980ad54e?w=800&q=80&auto=format&fit=crop",
     specs: [
       { label: "CLTC续航", value: "902km" },
       { label: "零百加速", value: "2.78s" },
@@ -32,7 +32,7 @@ const models = [
     darkText: false,
     bg: "#081510",
     tagline: "御风而行，全能智能SUV",
-    image: "https://s1.xiaomiev.com/activity-outer-assets/0328/images/yu7/home.jpg",
+    image: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?w=800&q=80&auto=format&fit=crop",
     specs: [
       { label: "CLTC续航", value: "835km" },
       { label: "风阻系数", value: "0.245Cd" },
@@ -50,7 +50,7 @@ const models = [
     darkText: true,
     bg: "#100e00",
     tagline: "自信驾驭强大",
-    image: "https://s1.xiaomiev.com/activity-outer-assets/0328/images/Ultra_U/home.jpg",
+    image: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&q=80&auto=format&fit=crop",
     specs: [
       { label: "综合功率", value: "1548kW" },
       { label: "零百加速", value: "1.98s" },

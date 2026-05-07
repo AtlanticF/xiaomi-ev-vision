@@ -7,26 +7,30 @@ const techs = [
   {
     title: "800V 高压平台",
     desc: "超高压充电，补能更高效",
-    image: "https://s1.xiaomiev.com/activity-outer-assets/0328/images/home/section3_1.jpg",
+    image: "https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=600&q=80&auto=format&fit=crop",
     href: "#hv",
+    gradient: "linear-gradient(160deg, #0a1628 0%, #0f2744 60%, #1a3a5c 100%)",
   },
   {
     title: "小米超级电机",
     desc: "自研定子绕组，极致功率密度",
-    image: "https://s1.xiaomiev.com/activity-outer-assets/0328/images/home/section3_2.jpg",
+    image: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=600&q=80&auto=format&fit=crop",
     href: "#motor",
+    gradient: "linear-gradient(160deg, #0d0d0d 0%, #1f1f1f 60%, #2d2d2d 100%)",
   },
   {
     title: "澎湃智能座舱",
     desc: "HyperOS 驱动的车机系统",
-    image: "https://s1.xiaomiev.com/activity-outer-assets/0328/images/home/section3_3.jpg",
+    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80&auto=format&fit=crop",
     href: "#cabin",
+    gradient: "linear-gradient(160deg, #0a0a1e 0%, #10103a 60%, #1a1a50 100%)",
   },
   {
     title: "小米辅助驾驶",
     desc: "全场景智能辅助驾驶能力",
-    image: "https://s1.xiaomiev.com/activity-outer-assets/0328/images/home/section3_4.jpg",
+    image: "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=600&q=80&auto=format&fit=crop",
     href: "#adas",
+    gradient: "linear-gradient(160deg, #0a1a10 0%, #0f2818 60%, #1a3a20 100%)",
   },
 ];
 
@@ -54,9 +58,9 @@ function TechCard({ tech, index }: { tech: typeof techs[0]; index: number }) {
       ref={ref}
       href={tech.href}
       className="reveal group relative overflow-hidden aspect-[3/4] md:aspect-auto md:h-[480px] block"
-      style={{ transitionDelay: `${index * 0.1}s` }}
+      style={{ transitionDelay: `${index * 0.1}s`, background: tech.gradient }}
     >
-      {/* Background image */}
+      {/* Background image with gradient fallback */}
       <div
         className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
         style={{ backgroundImage: `url(${tech.image})` }}

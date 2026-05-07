@@ -32,7 +32,7 @@ export default function CustomizeSection() {
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage: `url(https://s1.xiaomiev.com/activity-outer-assets/0328/images/customize/pc/1-new.jpg)`,
+          backgroundImage: `url(https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=1920&q=85&auto=format&fit=crop)`,
         }}
       />
 
